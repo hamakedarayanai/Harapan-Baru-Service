@@ -1,0 +1,27 @@
+<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <title>Harapan Baru Service</title>
+  <style>
+    @media (prefers-color-scheme: light) {
+      .bg { fill: #f1f5f9; }
+      .fg { stroke: #0f172a; }
+      .cog { fill: #0f172a; }
+    }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #0f172a; }
+      .fg { stroke: #38bdf8; }
+      .cog { fill: #38bdf8; }
+    }
+  </style>
+  <circle class="bg" cx="12" cy="12" r="12"/>
+  <path class="fg" d="M7 7 L 7 17 M 17 7 L 17 17 M 7 12 L 17 12" stroke-width="2.5" stroke-linecap="round" />
+  <g class="cog">
+    <rect x="11" y="0.5" width="2" height="3.5" rx="1"/>
+    <rect x="11" y="20" width="2" height="3.5" rx="1"/>
+    <rect x="0.5" y="11" width="3.5" height="2" rx="1"/>
+    <rect x="20" y="11" width="3.5" height="2" rx="1"/>
+    <rect transform="rotate(45 12 12)" x="11" y="0.5" width="2" height="3.5" rx="1"/>
+    <rect transform="rotate(45 12 12)" x="11" y="20" width="2" height="3.5" rx="1"/>
+    <rect transform="rotate(45 12 12)" x="0.5" y="11" width="3.5" height="2" rx="1"/>
+    <rect transform="rotate(45 12 12)" x="20" y="11" width="3.5" height="2" rx="1"/>
+  </g>
+</svg>
