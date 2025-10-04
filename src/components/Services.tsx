@@ -1,4 +1,5 @@
-import React from 'react';
+
+import type { ComponentType } from 'react';
 import { TelevisionIcon } from './icons/TelevisionIcon';
 import { WashingMachineIcon } from './icons/WashingMachineIcon';
 import { RefrigeratorIcon } from './icons/RefrigeratorIcon';
@@ -8,7 +9,7 @@ import { ToolsIcon } from './icons/ToolsIcon';
 
 interface Service {
   name: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: ComponentType<{ className?: string }>;
 }
 
 const services: Service[] = [
@@ -20,7 +21,7 @@ const services: Service[] = [
   { name: 'Other Electronics', icon: ToolsIcon },
 ];
 
-const Services: React.FC = () => {
+const Services = () => {
   return (
     <section className="container mx-auto px-6 py-12" aria-labelledby="services-title">
       <h2 id="services-title" className="text-3xl font-bold text-center text-white mb-10">

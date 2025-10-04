@@ -1,7 +1,7 @@
-import React from 'react';
+
 import { CogWheelIcon } from './icons/CogWheelIcon';
 
-const Hero: React.FC = () => {
+const Hero = () => {
   return (
     <section className="py-20 sm:py-32 text-center" aria-labelledby="service-title">
       <div className="container mx-auto px-6">

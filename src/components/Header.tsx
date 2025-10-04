@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
 
-const Header: React.FC = () => {
+import { useState, useEffect } from 'react';
+
+const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {

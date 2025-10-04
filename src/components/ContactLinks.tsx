@@ -1,4 +1,5 @@
-import React from 'react';
+
+import type { ComponentType } from 'react';
 import { FacebookIcon } from './icons/FacebookIcon';
 import { WhatsAppIcon } from './icons/WhatsAppIcon';
 import { MapPinIcon } from './icons/MapPinIcon';
@@ -6,7 +7,7 @@ import { MapPinIcon } from './icons/MapPinIcon';
 interface ContactLink {
   name: string;
   url: string;
-  icon: React.ComponentType<{ className?: string }>;
+  icon: ComponentType<{ className?: string }>;
   bgColor: string;
   textColor: string;
 }
@@ -35,7 +36,7 @@ const contactLinks: ContactLink[] = [
   },
 ];
 
-const ContactLinks: React.FC = () => {
+const ContactLinks = () => {
   return (
     <section className="container mx-auto px-6 py-12" aria-label="Contact options">
       <h2 className="text-3xl font-bold text-center text-white mb-10">Get In Touch</h2>
